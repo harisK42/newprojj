@@ -47,7 +47,7 @@ public class Main {
     public static void getData(Statement stmt){
         try {
             ResultSet rs = stmt.executeQuery("select * from CUSTOMER");
-            System.out.println("CustomerID      CustomerName      CustomerEmail");
+            System.out.println("CustomerID sami baig      CustomerName      CustomerEmail");
             while (rs.next()) {
                 //Display values
                 System.out.print(rs.getString("customerID") + "      ");
